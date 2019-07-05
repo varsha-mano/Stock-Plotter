@@ -5,7 +5,6 @@ import matplotlib.dates as mdates
 
 fileobj = open('msft.csv')
 read = csv.reader(fileobj)
-
 header = next(read)
 
 date = []
