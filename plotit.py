@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 from datetime import datetime as ddt
 import matplotlib.dates as mdates
 
-fileobj = open('msft.csv')
+fname = input('Enter the name of the csv file : ')
+
+fileobj = open(fname+'.csv')
 read = csv.reader(fileobj)
 header = next(read)
 
